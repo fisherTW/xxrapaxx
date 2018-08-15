@@ -1,0 +1,247 @@
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.memberFaq__wrap {
+  /* max-width: 620px; */
+  position: relative;
+  margin: 0 auto;
+}
+
+.memberFaq__anchors {
+  background-color: #fff;
+  padding: 60px 0 20px 0px;
+  /* text-align: center; */
+  transition: .5s all;
+}
+
+/* .memberFaq__anchors.is--fixedtop {
+      width: 100%;
+      border-bottom: 1px solid #ddd; }
+      .memberFaq__anchors.is--fixedtop .anchors {
+        padding: 0; } */
+
+.memberFaq__anchors.div_fixed {
+  position: fixed;
+  width: 100%;
+  padding: 10px 0 10px 0px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 414px) {
+  .memberFaq__anchors {
+    position: fixed;
+    padding: 0;
+  }
+  .memberFaq__anchors.div_fixed {
+    padding: 0px;
+  }
+  .memberFaq__anchors .memberFaq__wrap {
+    position: relative;
+    overflow: hidden;
+    min-width: 100%;
+  }
+  .memberFaq__anchors .memberFaq__wrap:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 14px;
+    height: 100%;
+    z-index: 6;
+    background-color: #fff;
+    /* box-shadow: -1px 0 3px 0 rgba(0, 0, 0, 0.4);*/
+  }
+}
+
+.memberFaq__content {
+  background-color: #f8f8f8;
+  padding: 50px 0 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .memberFaq__content {
+    padding: 50px 0 95px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .memberFaq__content {
+    padding: 130px 0 70px;
+  }
+}
+
+.memberFaq__link {
+  color: #d01120;
+}
+
+.memberFaq__list>li {
+  position: relative;
+}
+
+.memberFaq__list--decimal>li {
+  padding-left: 20px;
+}
+
+.memberFaq__list--decimal>li:before {
+  content: attr(data-decimal);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 24px;
+  line-height: 24px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.anchors>li {
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: middle;
+}
+
+.anchors__links {
+  color: #2e2e2e;
+  cursor: pointer;
+  padding: 10px 4px;
+  display: block;
+  /* white-space: nowrap; */
+  overflow: auto;
+}
+
+.anchors__links.on {
+  color: #d01120;
+}
+
+.anchors__links:hover {
+  color: #d01120;
+}
+
+@media only screen and (max-width: 414px) {
+  .anchors>li {
+    margin: 0;
+  }
+  .anchors>li:last-of-type {
+    margin-right: 14px;
+  }
+  .anchors__links {
+    display: block;
+    padding: 10px;
+  }
+  .anchors__links:hover {
+    color: #2e2e2e;
+    text-decoration: none;
+  }
+  .anchors__links.on {
+    color: #d01120;
+    text-decoration: none;
+  }
+}
+
+.sections {
+  margin-bottom: 50px;
+}
+
+.sections__title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sections__cont .faq_collapse {
+  margin-bottom: 2px;
+}
+
+.sections__cont .collapse:last-of-type {
+  margin-bottom: 0;
+}
+
+.sections:last-of-type {
+  margin-bottom: 0;
+}
+
+.faq_collapse {
+  background-color: #fff;
+}
+
+.collapse--faq .collapse__title {
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 20px 46px 20px 59px;
+}
+
+.collapse--faq .collapse__title:before {
+  content: attr(data-sequence);
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 34px;
+  height: 30px;
+  line-height: 1.5;
+  font-family: "Poppins", arial, "Microsoft JhengHei", \5FAE\8EDF\6B63\9ED1\9AD4, PMingLiU, \65B0\7D30\660E\9AD4, sans-serif;
+  font-size: 20px;
+  color: #2e2e2e;
+}
+
+.collapse--faq .collapse__title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 27px;
+  right: 20px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/icons/icon-collapse.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.collapse--faq .collapse__title.on {
+  color: #d01120;
+  padding-bottom: 0;
+}
+
+.collapse--faq .collapse__title.on:before {
+  color: #d01120;
+}
+
+.collapse--faq .collapse__title.on:after {
+  background-position: 0 -16px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  .collapse--faq .collapse__title:after {
+    background-image: url(../img/icons/icon-collapse.png);
+    background-size: 16px 32px;
+  }
+}
+
+.collapse--faq .collapse__content {
+  display: none;
+  margin-top: 10px;
+  padding: 0 46px 20px 59px;
+}
+
+.collapse--other {
+  padding: 20px;
+}
+
+.collapse--other .paragraph {
+  margin-bottom: 10px;
+}
+
+.fBold {
+  font-weight: bold;
+}

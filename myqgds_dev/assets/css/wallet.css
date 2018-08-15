@@ -1,0 +1,175 @@
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.wallet__wrap--coupons {
+  padding: 0 14px; }
+
+.wallet__wrap--notice {
+  padding: 0 14px; }
+
+.wallet__wrap .btn-more-load {
+  margin: 30px auto 0; }
+
+@media only screen and (max-width: 414px) {
+  .wallet__wrap--notice {
+    padding: 0; }
+  .wallet__wrap .btn-more-load {
+    margin: 20px auto 0; } }
+
+.wallet__status .amount {
+  text-align: center; }
+
+.wallet__status .function {
+  margin: 30px 0; }
+  .wallet__status .function--bill {
+    padding: 15px 11px;
+    background-color: #fff; }
+    .wallet__status .function--bill .bills {
+      float: left;
+      width: 50%;
+      text-align: center;
+      border-right: 1px solid #ddd;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .wallet__status .function--bill .bills:last-of-type {
+        border-right: none; }
+  .wallet__status .function--coupons .insert {
+    display: table;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden; }
+    .wallet__status .function--coupons .insert__input {
+      display: table-cell;
+      vertical-align: middle; }
+      .wallet__status .function--coupons .insert__input input[type="text"] {
+        width: 100%;
+        border: none; }
+    .wallet__status .function--coupons .insert__button {
+      display: table-cell;
+      vertical-align: middle;
+      width: 72px; }
+      .wallet__status .function--coupons .insert__button button {
+        cursor: pointer;
+        background-color: #2e2e2e;
+        color: #fff;
+        border: none;
+        width: 100%;
+        padding: 10px 0; }
+
+.wallet__amount {
+  font-weight: 500; }
+
+.wallet__unit {
+  font-size: 14px;
+  color: #2e2e2e; }
+
+.wallet__notice {
+  color: #999999;
+  font-size: 14px;
+  padding: 14px;
+  background-color: #fff;
+  margin-top: 50px; }
+  .wallet__notice ol > li {
+    position: relative;
+    padding-left: 35px; }
+    .wallet__notice ol > li:before {
+      content: attr(data-sequence);
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 35px;
+      padding-left: 7px;
+      text-align: justify;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      line-height: 1.5;
+      color: #999999;
+      font-size: 14px;
+      font-family: "Poppins", arial, "Microsoft JhengHei", \5FAE\8EDF\6B63\9ED1\9AD4, PMingLiU, \65B0\7D30\660E\9AD4, sans-serif; }
+  @media only screen and (max-width: 414px) {
+    .wallet__notice {
+      margin-top: 30px; } }
+
+.grid {
+  margin: 0 -5px 20px; }
+  .grid > li {
+    float: left;
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 10px; }
+    .grid > li:first-child {
+      margin-top: 0; }
+  .grid--2grid > li {
+    width: 50%; }
+  @media only screen and (max-width: 414px) {
+    .grid--2grid > li {
+      width: 100%; } }
+
+.coupons {
+  display: table;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  background-color: #fff; }
+  .coupons__info, .coupons__discount {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .coupons__info {
+    padding-left: 14px;
+    padding-right: 10px; }
+    .coupons__info .title {
+      color: #2e2e2e; }
+    .coupons__info .description {
+      margin-top: 10px;
+      color: #666;
+      font-size: 12px; }
+      .coupons__info .description__rules {
+        margin-bottom: 4px; }
+  .coupons__discount {
+    width: 122px;
+    padding-left: 10px;
+    padding-right: 14px;
+    border-left: 1px dashed #ddd;
+    text-align: center;
+    color: #ff3244;
+    font-weight: 500; }
+    .coupons__discount .price {
+      font-size: 24px; }
+
+.f--45 {
+  font-size: 45px; }
+
+.f--20 {
+  font-size: 20px; }
+
+.f--lheight1 {
+  line-height: 1; }
+
+.f--red {
+  color: #ff3244; }
+
+.f--gray {
+  color: #666; }
+
+.mt5 {
+  margin-top: 5px; }
+
+.no-content {
+  margin-top: 50px; }
+  .no-content img {
+    vertical-align: middle; }

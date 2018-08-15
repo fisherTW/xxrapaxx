@@ -1,0 +1,13 @@
+#form1 input:invalid, .vrf input:invalid, #form1 textarea:invalid, .vrf textarea:invalid {
+	background: #fff url(../img/invalid.svg) no-repeat 98% center;
+	background-size: 20px;
+	box-shadow: 0 0 5px #d45252 ;
+	border-color: #b03535 ;
+}
+
+#form1 input:required:invalid, .vrf input:required:valid, #form1 textarea:required:valid, .vrf textarea:required:valid {
+	background: #fff url(../img/valid.svg) no-repeat 98% center;
+	background-size: 20px;
+	box-shadow: 0 0 5px #5cd053 ;
+	border-color: #28921f ;
+}

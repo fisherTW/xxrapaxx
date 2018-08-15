@@ -1,0 +1,277 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+.Bitmap {
+  max-width: 100%;
+  padding-top: 33%;
+  margin-top: 99px;
+  position: relative;
+  overflow: hidden; }
+
+.Bitmap img {
+  width: 100%;
+  position: absolute;
+  margin-top: -33%;
+  left: 0; }
+
+contain {
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Noto Sans TC','Microsoft JhengHei' ,sans-serif; }
+
+.price_font {
+  color: #d01120; }
+
+.area1 {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto; }
+
+.summernote {
+  margin: 60px auto; }
+
+.summernote h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5; }
+
+.summernote h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #454545; }
+
+.summernote h4 {
+  margin: 20px auto;
+  color: #d01120;
+  font-size: 18px; }
+
+.summernote h5 {
+  color: #3e3e3e;
+  font-weight: inherit;
+  margin-bottom: 5px; }
+
+.summernote img {
+  width: 100%; }
+
+.youtube {
+  position: relative;
+  padding-bottom: 56%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 10px; }
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+section h3 {
+  font-family: NotoSansCJKtc;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #454545; }
+
+.Group_All {
+  margin-bottom: 40px; }
+
+.Group_Big {
+  margin-bottom: 20px; }
+
+.Group_Big span {
+  margin: 5px;
+  color: #0045b4; }
+
+.color_title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 60px;
+  color: #454545; }
+
+.t-relation h3 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #2e2e2e;
+  text-align: center; }
+
+.card_text a p {
+  color: #000;
+  text-decoration: none; }
+
+.card_text a:hover {
+  color: #000;
+  text-decoration: none; }
+
+.card_all {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.card_all .card_val:nth-child(3n) .card_val_small {
+  margin-left: 14px; }
+
+.card_all .card_val:nth-child(3n+1) .card_val_small {
+  margin-right: 14px; }
+
+.card_all .card_val:nth-child(3n+2) .card_val_small {
+  margin-left: 7px;
+  margin-right: 7px; }
+
+.card_val {
+  width: 33.33333333%;
+  margin-top: 20px; }
+
+.card_val .card_val_small {
+  box-shadow: 0 2px 5px 0 #c2c2c2; }
+
+.card_val .card_cart_img:hover {
+  content: url("../img/shop@3x.png"); }
+
+.card_titleimg {
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%;
+  max-width: 360px;
+  height: 240px;
+  background-size: cover;
+  background-position: center; }
+
+.card_val .card_titleimg img {
+  width: 100%;
+  height: 100%; }
+
+.card_text {
+  position: relative;
+  height: 134px;
+  padding: 20px;
+  background-color: white; }
+
+.card_text a p {
+  color: #000;
+  text-decoration: none; }
+
+.card_text a:hover {
+  color: #000;
+  text-decoration: none; }
+
+.card_text .card_material {
+  margin-top: 5px;
+  text-align: left;
+  color: #8a8a8a;
+  font-size: 14px; }
+
+.card_text .card_price {
+  position: absolute;
+  font-family: Helvetica ,sans-serif;
+  font-size: 16px;
+  left: 20px;
+  bottom: 20px;
+  height: 20px; }
+
+.card_text .card_cart_img {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 30px;
+  height: 38px; }
+
+.card_text .card_text_name {
+  width: 100%;
+  max-height: 50px;
+  margin: 0px auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  display: box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-align: justify;
+  font-size: 18px; }
+
+.small_icon {
+  margin: 30px auto 40px auto; }
+  .small_icon img {
+    cursor: pointer;
+    height: 30px;
+    width: 30px; }
+
+.summernote img {
+  width: 100%;
+  margin-bottom: 5px; }
+
+.w_clear {
+  clear: both; }
+
+@media screen and (max-width: 1440px) {
+  .area1 {
+    padding: 0 20px; } }
+@media screen and (max-width: 1160px) {
+  .area1 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; }
+
+  .card_val {
+    width: 33.3333%; }
+
+  .card_titleimg {
+    max-width: 33.3333vw;
+    height: 22.2222vw; }
+
+  .card_val .card_titleimg img {
+    max-width: 33.3333vw;
+    height: 22.2222vw; } }
+@media screen and (max-width: 768px) {
+  .card_all .card_val:nth-child(3n) .card_val_small {
+    margin-left: 0px; }
+
+  .card_all .card_val:nth-child(3n+1) .card_val_small {
+    margin-right: 0px; }
+
+  .card_all .card_val:nth-child(3n+2) .card_val_small {
+    margin-left: 0px;
+    margin-right: 0px; }
+
+  .card_all .card_val:nth-child(even) .card_val_small {
+    margin-left: 10px; }
+
+  .card_all .card_val:nth-child(odd) .card_val_small {
+    margin-right: 10px; }
+
+  .card_val {
+    width: 50%; }
+
+  .card_titleimg {
+    max-width: 50vw;
+    height: 33.3333vw; }
+
+  .card_val .card_titleimg img {
+    max-width: 50vw;
+    height: 33.3333vw; } }
+@media screen and (max-width: 414px) {
+  .card_all .card_val:nth-child(even) .card_val_small {
+    margin-left: 0px; }
+
+  .card_all .card_val:nth-child(odd) .card_val_small {
+    margin-right: 0px; }
+
+  .card_val {
+    width: 100%; }
+
+  .card_titleimg {
+    max-width: 100vw;
+    height: 66.6666vw; }
+
+  .card_val .card_titleimg img {
+    max-width: 100vw;
+    height: 66.6666vw; }
+
+  .card_text .card_text_name {
+    font-weight: 500; } }
+
+/*# sourceMappingURL=QTheme.css.map */

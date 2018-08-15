@@ -1,0 +1,235 @@
+.sharestyle {
+  display: none;
+  text-align: center;
+  left: 50%;
+  pointer-events: none;
+}
+
+.sharestyle .sharestyle-center {
+  pointer-events: auto;
+  position: relative;
+  left: -50%;
+}
+
+.s-header {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.s-header img {
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .s-header {
+    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .s-header img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.t-topic {
+  max-width: 780px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -70px;
+}
+
+.t-topic__shareicon {
+  position: relative;
+  margin: 0 auto;
+  background-color: #f7b500 !important;
+  border: 0;
+  background: url("../img/icons/share.svg") 50% 50% no-repeat;
+  background-size: 46%;
+}
+
+.t-topic__shareicon:hover {
+  background-color: #ffc429 !important;
+}
+
+.t-topic__shareicon:active {
+  background-color: #f7b500 !important;
+}
+
+.t-topic h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #2e2e2e;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 20px 20px;
+  margin-top: -22px;
+}
+
+@media only screen and (max-width: 768px) {
+  .t-topic {
+    max-width: 600px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .t-topic {
+    padding: 0 14px;
+    box-sizing: border-box;
+  }
+  .t-topic h2 {
+    padding: 30px 14px 10px;
+  }
+}
+
+.t-content {
+  padding: 0 0;
+  max-width: 740px;
+  position: relative;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #2e2e2e;
+  margin-top: 20px;
+}
+
+.t-content a {
+  color: #f7b500;
+}
+
+.t-content a:hover {
+  color: #ffc429;
+}
+
+.t-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.t-relation {
+  padding-bottom: 70px;
+}
+
+.t-relation h3 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #2e2e2e;
+  text-align: center;
+}
+
+.t-relation-list {
+  margin-top: 30px;
+}
+
+.t-relation-list li {
+  position: relative;
+  width: 31.91489%;
+  float: left;
+  margin-right: 2.12766%;
+  margin-bottom: 20px;
+}
+
+.t-relation-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.t-relation-list li .relation-list__pic {
+  width: 100%;
+  height: 168px;
+  overflow: hidden;
+}
+
+.t-relation-list li .relation-list__pic img {
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.t-relation-list li .relation-list-info {
+  padding: 10px 10px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  height: 153px;
+}
+
+@media only screen and (max-width: 960px) {
+  .t-relation-list li .relation-list__pic {
+    height: 16vw;
+  }
+  .t-relation-list li .relation-list-info .info__price {
+    width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .t-relation-list li {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+  .t-relation-list li .relation-list__pic {
+    height: 48vw;
+  }
+  .t-relation-list li .relation-list-info {
+    padding: 14px 14px;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .t-relation-list li .relation-list__pic {
+    height: 163px;
+  }
+}
+
+.t-relation-list:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.t-relation__btn {
+  width: 114px;
+  height: 36px;
+  margin: 0 auto;
+  position: relative;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  border-radius: 22px;
+  text-align: center;
+  color: #fff;
+  background-color: #2e2e2e;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 414px) {
+  .t-relation {
+    padding-bottom: 70px;
+  }
+  .t-relation-list {
+    margin-top: 20px;
+  }
+  .t-relation__btn {
+    margin-top: 0;
+  }
+}

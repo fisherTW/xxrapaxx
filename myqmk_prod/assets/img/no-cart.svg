@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="187" viewBox="0 0 180 187">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 0h180v148H0z"/>
+        <text fill="#BBB" font-family="MicrosoftJhengHeiRegular, 微軟正黑體" font-size="21">
+            <tspan x="50" y="186">尚無好物</tspan>
+        </text>
+        <path fill="#DDD" d="M14 14h20v20H14zM40 19h58v10H40zM14 44h40v40H14zM60 47h106v10H60zM60 59h106v10H60zM60 71h106v10H60zM14 94h40v40H14zM60 97h106v10H60zM60 109h106v10H60zM60 121h106v10H60z"/>
+    </g>
+</svg>

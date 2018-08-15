@@ -1,0 +1,56 @@
+body {
+  margin: 0; }
+
+.err_bold {
+  font-weight: bold; }
+
+.err_all {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/web-error-1@3x.png") center center no-repeat;
+  background-size: cover; }
+  .err_all .msg {
+    position: absolute;
+    font-size: 40px;
+    right: 5%;
+    top: 25%; }
+    .err_all .msg a {
+      text-decoration: none;
+      color: #d01120;
+      font-family: sans-serif;
+      font-weight: bold; }
+
+@media screen and (max-width: 1024px) {
+  .err_all {
+    background: url("../img/web-error-1024@3x.png") center left no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover; }
+    .err_all .msg {
+      font-size: 30px;
+      top: 5%;
+      left: 50%;
+      right: auto;
+      margin-left: -219px; } }
+@media screen and (max-width: 768px) {
+  .err_all {
+    background: url("../img/err-group-end@3x.png") center center no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover; }
+    .err_all .msg {
+      font-size: 26px;
+      top: 5.5%;
+      margin-left: -190px; } }
+@media screen and (max-width: 375px) {
+  .err_all {
+    background: url("../img/err-group-end@3x.png") center center no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover; }
+    .err_all .msg {
+      font-size: 20px;
+      margin-left: -146px; } }
+
+/*# sourceMappingURL=QError.css.map */
